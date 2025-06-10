@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+  overflow: hidden;
+  color: white;
+}
+
+.pong-field {
+  position: relative;
+  width: 400px;
+  height: 050px;
+  background: #000;
+}
+
+.paddle {
+  position: absolute;
+  width: 10px;
+  height: 40px;
+  background: white;
+}
+
+.paddle.left {
+  left: 0;
+}
+
+.paddle.right {
+  right: 0;
+}
+
+.ball {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: white;
+  border-radius: 50%;
+}
+
+.text {
+  position: absolute;
+  top: -60px;
+  font-size: 3rem;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
