@@ -43,7 +43,7 @@ body {
 .text {
   position: absolute;
   top: -60px;
-  font-size: 3rem;
+  font-size: 1rem;
   text-align: center;
   width: 100%;
   color: white;
